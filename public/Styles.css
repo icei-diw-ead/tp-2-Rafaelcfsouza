@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.topo {
+    width: 100%;
+    background: #e9ded8;
+    padding: 40px 0;
+}
+
+.conteudo-header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+.foto-container {
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.texto-header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texto-header h1 {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.cargo {
+    color: #6e6e6e;
+    margin: 10px 0 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 80px;
+    font-size: 13px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background: #d4c3b9;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-lateral {
+    width: 75%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.descricao {
+    font-size: 15px;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.sidebar h3, main h2 {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #00000020;
+    padding-bottom: 6px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.sidebar li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 75%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-principal {
+    width: 75%;
+    padding: 70px 0;
+}
+
+main ul {
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+main li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.educacao-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+main h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main span {
+    font-size: 13px;
+    color: #777;
+}
+
+main p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
